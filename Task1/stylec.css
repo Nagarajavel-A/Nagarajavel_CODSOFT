@@ -1,0 +1,128 @@
+.flex {
+  height: 60vh;
+  width: 100%;
+  background: url(images.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.c {
+  margin-top: 0px;
+  font-size: 30px;
+  color: white;
+  position: relative;
+  top: 40px;
+}
+.t img {
+  display: inline-block;
+  height: 300px;
+  position: relative;
+}
+.w img {
+  display: inline-block;
+  height: 300px;
+  position: relative;
+  right: 40px;
+  top: 20vh;
+}
+.z {
+  height: 35px;
+  width: 80px;
+  border: 3px rgb(82, 235, 255) solid;
+  color: rgb(255, 255, 255);
+  border-radius: 15px;
+  cursor: pointer;
+  transition-duration: 0.2s;
+  background: transparent;
+  border-top-right-radius: 0;
+  position: relative;
+  left: 150px;
+  top: 100px;
+}
+.z:hover {
+  background-color: aqua;
+  color: black;
+  border-top-right-radius: 15px;
+}
+.m {
+  height: 35px;
+  width: 80px;
+  border: 3px rgb(30, 207, 252) solid;
+  color: rgb(255, 255, 255);
+  border-radius: 15px;
+  cursor: pointer;
+  transition-duration: 0.2s;
+  background: transparent;
+  border-top-right-radius: 0;
+  position: relative;
+  left: 480px;
+  top: 100px;
+}
+.m:hover {
+  background-color: aqua;
+  color: black;
+  border-top-right-radius: 15px;
+}
+.x {
+  height: 35px;
+  width: 80px;
+  border: 3px rgb(30, 207, 252) solid;
+  color: rgb(255, 255, 255);
+  border-radius: 15px;
+  cursor: pointer;
+  transition-duration: 0.2s;
+  background: transparent;
+  border-top-right-radius: 0;
+  position: relative;
+  left: 850px;
+  top: 100px;
+}
+.x:hover {
+  background-color: aqua;
+  color: black;
+  border-top-right-radius: 15px;
+}
+table .t{
+    display: inline-block;
+    color: white;
+    font-size: 23px;
+    margin-left: 70px;
+    position: relative;
+    top: 80px;
+}
+table .w{
+    display: inline-block;
+    color: white;
+    font-size: 23px;
+    margin-left: 10px;
+    position: relative;
+    top: 80px;
+}
+table .d{
+    display: inline-block;
+    color: white;
+    font-size: 23px;
+    margin-left: 30px;
+    position: relative;
+    top: 80px;
+}
+button {
+  height: 40px;
+  width: 90px;
+  border: 3px rgb(0, 0, 0) solid;
+  color: rgb(0, 0, 0);
+  border-radius: 15px;
+  cursor: pointer;
+  transition-duration: 0.2s;
+  background: transparent;
+  border-top-right-radius: 0;
+  position: relative;
+  top:50px;
+  left:10px;
+  bottom: 60px;
+}
+button:hover {
+  background-color: rgb(6, 7, 7);
+  color: rgb(255, 255, 255);
+  border-top-right-radius: 15px;
+}

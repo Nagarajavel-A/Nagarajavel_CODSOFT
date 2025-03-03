@@ -1,0 +1,54 @@
+.flex{
+  height: 150vh;
+  width: 100%;
+  background: url(images.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.x {
+  margin-right: 300px;
+  margin-top: 80px;
+  padding: 20px;
+  font-size: 25px;
+  border: 1px solid #eaeaea;
+  background-color: #265a40;
+  cursor: pointer;
+  transition: all 0.4s;
+  margin-bottom: 20px;
+  margin-left: 80px;
+  position: relative;
+  left: 150px;
+  color: rgb(255, 255, 255);
+}
+.x:hover {
+  box-shadow: 0px 5px 12px 0px #ccc;
+  border: 1px solid transparent;
+}
+.title {
+  display: inline-block;
+  font-family: Helvetica;
+  color: rgb(255, 255, 255);
+  position: relative;
+  top: 50px;
+  left: 230px;
+}
+button {
+  height: 40px;
+  width: 90px;
+  border: 3px rgb(43, 213, 255) solid;
+  color: rgb(71, 255, 255);
+  border-radius: 15px;
+  cursor: pointer;
+  transition-duration: 0.2s;
+  background: transparent;
+  border-top-right-radius: 0;
+  position: relative;
+  right:0px;
+  bottom: 60px;
+}
+button:hover {
+  background-color: rgb(59, 255, 255);
+  color: rgb(0, 0, 0);
+  border-top-right-radius: 15px;
+}

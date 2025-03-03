@@ -1,0 +1,76 @@
+.flex{
+  height: 140vh;
+  width: 100%;
+  background: url(images.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.bottom {
+  margin-top: 50px;
+  padding: 20px 100px;
+  color: white;
+  font-size: 25px;
+}
+body .f {
+  display: flex;
+  margin-left: 17%;
+  margin-top: 210px;
+  position: relative;
+  padding: 20px 100px;
+  color: white;
+  font-size: 25px;
+}
+body .b {
+  display: flex;
+  margin-left: 65%;
+  margin-top: -80px;
+  position: relative;
+  padding: 20px 100px;
+  color: white;
+  font-size: 25px;
+}
+body .d {
+  display: inline-block;
+  margin-top: 300px;
+  margin-left: 8%;
+  color: white;
+  font-size: 25px;
+}
+.r img {
+  height: 250px;
+  position: absolute;
+  top: 18vh;
+  left: 60%;
+}
+.a img {
+  height: 250px;
+  position: absolute;
+  top: 18vh;
+  left: 19%;
+}
+.e img {
+  height: 250px;
+  position: absolute;
+  top: 78vh;
+  left: 45%;
+}
+button {
+  height: 40px;
+  width: 90px;
+  border: 3px rgb(43, 213, 255) solid;
+  color: rgb(71, 255, 255);
+  border-radius: 15px;
+  cursor: pointer;
+  transition-duration: 0.2s;
+  background: transparent;
+  border-top-right-radius: 0;
+  position: relative;
+  left:50px;
+  bottom: 60px;
+}
+button:hover {
+  background-color: rgb(59, 255, 255);
+  color: rgb(0, 0, 0);
+  border-top-right-radius: 15px;
+}
